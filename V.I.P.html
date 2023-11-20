@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+      </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1"> 
+        
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2394756539335211"
+         crossorigin="anonymous"></script>
+ 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <title>VIP</title>      
+    </head>
+    
+    <style>
+        body {background-color: gray;}
+
+        * {box-sizing: border-box;}
+
+        h1 {font-size: 30px;}
+
+        h2 {text-align: center;
+            color: rgb(163, 113, 19);}
+
+        h4 {text-align: center;
+            background-color: rgb(163, 113, 19);
+            color: black;
+            font-size: 25px;
+            border-radius: 10px;}
+
+        #btn {text-align: center;}
+
+        .column {
+               float: left;
+               width: 50%;
+               padding: 5px;
+              }
+
+        .row::after {
+               content: "";
+              clear: both;
+              display: table;
+             }
+
+    </style>
+    <body>
+      <amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-2394756539335211">
+</amp-auto-ads>
+<div id="showVip">
+        <nav class="navbar bg-primary">
+          <div class="container-fluid">
+            <h1><strong>VIP</strong></h1>
+            <a href="INDEX.html" style="color: black;"><i class="fas fa-home" style="font-size: 30px;"></i></a>
+          </div>
+        </nav>
+
+        <div class="container mt-3">
+            <div class="mt-4 p-3 bg-light rounder">
+                <h3><strong><b>We are having fixed match twice a week (Monday & Friday)</b></strong></h3>
+                <hr>
+                <div class="text-dark" id="btn">
+                    <button type="button" onclick="showTable2()" class="btn btn-primary">YESTERDAY</button>
+                    <button type="button" onclick="showTable1()" class="btn btn-primary">TODAY</button>
+                </div>
+                <hr>
+                <table class="table" type="table" id="showFtable" style="width: 100%;">
+                    <tr style="background-color: rgb(163, 113, 19);">
+                        <th>MATCH</th>
+                        <th>C-S</th>
+                        <th>RESUIT</th>
+                    </tr>  
+                    <tr>
+                      <td>No fixed match available</td>
+                    </tr>
+                    <!--<tr>
+                     <td>Ghana VS Switzerland</td>
+                    <td><a href="https://wa.me/qr/Y3LYGCNEAVUKM1"><button type="button" class="btn btn-primary">Get Now</button></a></td>
+                    <td>?</td>
+                  </tr>
+                  <tr>
+                    <td>Israel VS Zambia</td>
+                    <td><a href="https://wa.me/qr/Y3LYGCNEAVUKM1"><button type="button" class="btn btn-primary">Get Now</button></a></td>
+                    <td>?</td>
+                    </tr>   -->
+                </table>
+
+                <table class="table" type="table" id="showLtable" style="width: 100%;">
+                    <tr style="background-color: rgb(163, 113, 19);">
+                      <th>MATCH</th>
+                      <th>C-S</th>
+                      <th>RESUIT</th>
+                    </tr>
+                    <tr>
+                      <td>No fixed match available</td>
+                    </tr>
+                    <!-- <tr>
+                      <td>Chelsea VS Man-u</td>
+                      <td>2-0</td>
+                      <td>Won</td>
+                    </tr>
+                    <tr>
+                      <td>Liverpool VS Spur</td>
+                      <td>2-1</td>
+                      <td>Won</td>
+                    </tr> -->
+                  </table>
+
+        <div class="container mt-3" >
+            <div class="mt-4 p-3 text-light bg-dark rounded">
+                <h2>Fixed Match</h2>
+                <p>Access to fixed match twice in a week.</p>
+                <hr>
+                <a href=""><button type="button" class="btn btn-primary rounded">Chat with admin</button></a>
+            </div>
+        </div>   
+        <br>
+        <h4>WINNING POST</h4>  
+
+        <div class="row">
+          <div class="column">
+            <img src="images/IMG_20230219_170913_222.jpg" style="width: 100%;">
+          </div>
+          <div class="column">
+            <img src="images/IMG_20230219_170722_557.jpg" style="width: 100%;">
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="images/IMG_20230219_170817_387.jpg" style="width: 100%;">
+          </div>  
+          <div class="column">
+            <img src="images/IMG_20230219_171025_130.jpg" style="width: 100%;">
+          </div>  
+         </div>
+        </div>
+       </div> 
+       <br>
+ 
+       <script>
+        var x = document.getElementById("showLtable")
+           x.style.display = "none"
+
+           var x = document.getElementById("showChat")
+           x.style.display = "none"
+
+           function setVisibility(elemID, disp) {
+           var x = document.getElementById(elemID);
+           x.style.display = disp;
+          }
+
+          function showTable1() {
+            setVisibility("showFtable", "")
+            setVisibility("showLtable", "none")
+          } 
+          function showTable2() {
+            setVisibility("showLtable", "")
+            setVisibility("showFtable", "none")
+            }
+
+    </script>
+
+    </body>
+</html>

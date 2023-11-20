@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+      </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1"> 
+        
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2394756539335211"
+        crossorigin="anonymous"></script>
+ 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <title>INDEX</title>   
+    </head>
+
+    <style>
+        body {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              background-color: white;}
+
+        * {box-sizing: border-box;}
+        
+        .bg-img {background-image: url("images/images (2).jpeg");
+                 min-height: 250px;
+                 background-position: center;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 position: relative;
+             }
+
+        h1 {color: aqua;}
+
+        h3 {text-align: center;}
+
+        title, text {float: right;
+                         margin-bottom: 10px;}
+
+        ul li {text-align: center;
+            display: block;
+            color: white;}
+
+        #check, .non1, #demo9 {display: none;}
+
+        .checkbtn {display: none;
+                   font-size: 25px;
+                   cursor: pointer;
+                   float: right;}
+
+          #shareBtn {float: right;
+                     font-size: 35px;
+                     cursor: pointer;
+                     margin-right: 15px;}
+
+          .pan, .card {text-align: center;}
+
+                @media screen and (max-width: 990px) {
+                  .checkbtn {display: block;}
+
+                  .non1 {display: block;}
+
+                  * {box-sizing: border-box;}
+
+                  body {background-size: 100%;}
+
+                  nav ul li{
+                  display: none;
+              }
+              ul li{
+                  display: block;
+                  margin:60px 0px;
+                  line-height: 20px;
+                }
+              #check:checked ~ ul{
+                  left:0;
+              }
+              #btn1, #vip, #roll {display: none;}
+              #bnt {display: block;}
+                }
+
+    </style>
+    <body>
+      <amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-2394756539335211">
+</amp-auto-ads>
+        <nav class="navbar bg-dark">
+          <div class="container-fluid">
+            <h1>PROBET</h1>
+            <div class="collapse navbar-collapse" id="navbarsuppoutedcontent"> 
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="Tips-1.html"><button type="button" class="btn btn-secondary">Tips 1</button></a></li>
+                <li class="nav-item"><a class="nav-link" href="Tips-2.html"><button type="button" class="btn btn-secondary">Tips 2</button></a></li>
+                <li class="nav-item"><a class="nav-link" href="Tips-3.html"><button type="button" class="btn btn-secondary">Tips 3</button></a></li>
+                <li class="nav-item"><a class="nav-link" href="V.I.P.html"><button type="button" class="btn btn-secondary">JOIN VIP</button></a></li>
+                <li class="nav-item"><a class="nav-link" href="Rollover.html"><button type="button" class="btn btn-secondary">ROW OVER</button></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.flashscore.com.ng/" target="_blank"><button type="button" class="btn btn-secondary">Football LiveScore</button></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.vipbox.lc/" target="_blank"><button type="button" class="btn btn-secondary">Watch Live Football Match</button></a></li>
+              </ul>
+            </div>
+            <span>
+            <label for="check" class="checkbtn" onclick="showTips()" style="color: rgba(40, 4, 243, 0.986);">
+              <i class="fa fa-bars"></i>
+            </label>
+            <a href=""><i class="fas fa-share" id="shareBtn"></i></a></span>
+          </div>
+        </nav>
+
+        <div id="all">
+        <div class="non1">
+          <div class="bg-img">
+            <br>
+        <div class="top" style="text-align: center;">
+          <div id="tips">
+          <a href="Tips-1.html"><button type="button" class="btn btn-secondary">Tips 1</button></a>
+          <a href="Tips-2.html"><button type="button" class="btn btn-secondary">Tips 2</button></a>
+          <a href="Tips-3.html"><button type="button" class="btn btn-secondary">Tips 3</button></a><br><br></div>
+            <a href="V.I.P.html"><button type="button" class="btn btn-secondary">JOIN VIP</button></a>
+            <br><br>
+            <a href="Rollover.html"><button type="button" class="btn btn-secondary">ROW OVER</button></a>
+            <br><br>
+            <a href="https://www.flashscore.com.ng/" target="_blank"><button type="button" class="btn btn-secondary">Football LiveScore</button></a><br><br>
+            <a href="https://www.vipbox.lc/" target="_blank"><button type="button" class="btn btn-secondary">Watch Live Football Match</button></a> 
+        </div>
+        </div>
+      </div>
+      <br>
+
+      
+      <div class="pan">
+      <button type="button" class="btn btn-info" onclick="showTable2()">YESTERDAY</button>
+      <button type="button" class="btn btn-info" onclick="showTable1()">TODAY</button>
+      <br><br>
+      <h4 class="badge bg-info" style="font-size: 30px;"><strong>FOOTBALL</strong></h4></div>
+      
+      <div id="showFtable">
+         <h3 style="background-color: black; color: white;">Football Free Expert Tips For Today</h3>
+         <br>
+
+        <table class="table" type="table" style="width: 100%;">
+          <tr style="background-color: gray;">
+            <th>MATCH</th>
+            <th>TIPS</th>
+            <th>RESUIT</th>
+          </tr>
+          <tr>
+            <td>Japan vs Costa Rica</td>
+            <td>12</td>
+            <td>Won</td>
+          </tr>
+          <tr>
+            <td>Crotia vs Canada</td>
+            <td>1X</d>
+            <td>Won</td>
+          </tr>
+          <tr>
+            <td>Ipswich vs Buxton FC</td>
+            <td>1</td>
+            <td>Won</td>
+          </tr>
+          <tr>
+            <td>Bristol Rovers vs Boreham Wood</td>
+            <td>over 1.5</td>
+            <td>Won</td>
+          </tr>
+          <tr>
+            <td>Bank vs Szekszardi</td>
+                    <td>Over3.5</td>
+                    <td>Won</td>
+          </tr>
+          <tr>
+            <td>Belgium vs Morocco</td>
+            <td>over 1.5</td>
+            <td>Won</td>
+          </tr>
+          <tr>
+            <td>Burton vs Chippenham Town</td>
+            <td>1</td>
+            <td>Won</td>
+          </tr>
+          <tr>
+            <td>Kazincbarcikai vs MTK budapest</td>
+            <td>over 0.5 HT</td>
+            <td>Won</td>
+          </tr> 
+        </table> 
+      </div>
+
+        <div id="showLtable">
+        <h3 style="background-color: black; color: white;">Football Free Expert Tips For Yesterday</h3>
+         <br>
+
+      <table class="table" type="table" style="width: 100%;">
+        <tr style="background-color: gray;">
+          <th>MATCH</th>
+          <th>TIPS</th>
+          <th>RESUIT</th>
+        </tr>
+        <tr>
+          <td>Tunisia vs Australia</td>
+          <td>X2</td>
+          <td>Won</td>
+        </tr>
+        <tr>
+          <td>Poland vs Saudi Arabia</td>
+          <td>1</d>
+          <td>Won</td>
+        </tr>
+        <tr>
+          <td>France vs Denmark</td>
+          <td>Over 1.5</td>
+          <td>Won</td>
+        </tr>
+        <tr>
+          <td>Argentina vs Mexico</td>
+          <td>Over 1.5</td>
+          <td>Won</td>
+        </tr>
+        <tr>
+          <td>Dag & Red vs Gillingham</td>
+          <td>Over 1.5</td>
+          <td>Won</td>
+        </tr>
+        <tr>
+          <td>Kadiogo vs Vitesse</td>
+          <td>X2</td>
+          <td>Won</td>
+        </tr>
+        <tr>
+          <td>Pisa vs Ternana</td>
+          <td>1 & Over 1.5</td>
+          <td>Won</td>
+        </tr>
+      </table> 
+    </div>
+      
+        <div class="card bg-dark text-light" style="width: 80%; margin-left: 35px;">
+          <img src="images/IMG_20230219_171104_595.jpg" height="350px" class="card-img"/>
+                <h5 class="card-title">VIP</h5>
+            <a href="V.I.P.html"><button type="button" class="btn btn-primary">JOIN NOW</button></a>
+          </div> 
+      <br>
+
+            <div class="card bg-dark text-light" style="width: 80%; margin-left: 35px;">
+              <img src="images/IMG_20230219_171041_571.jpg" class="card-img"/>
+                <h5 class="card-title">ROLL OVER</h5> 
+            <a href="Rollover.html"><button type="button" class="btn btn-primary">JOIN NOW</button></a>
+         </div>
+        <br>
+        
+      <footer class="text-center text-lg-start bg-dark text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-5 border-bottom">
+          <div class="me-2 d-none d-lg-block">
+           <span>Get connected with us on social networks:</span>
+          </div>
+
+          <div>
+           <a href="" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+      </div>
+    </section>
+
+    <section class="">
+     <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            navigation
+          </h6>
+          <p>
+            <a href="https://www.flashscore.com.ng/" class="text-reset">LiveScore</a>
+          </p>
+          <p>
+            <a href="https://www.score808.com/" class="text-reset">Live Football</a>
+          </p>
+          <p>
+            <a href="V.I.P.html" class="text-reset" id="vip">Join Vip</a>
+          </p>
+          <p>
+            <a href="Rollover.html" class="text-reset" id="roll">Roll Over</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            information
+          </h6>
+          <p>
+            <a href="privacy.html" class="text-reset">Privacy Policy</a>
+          </p>
+          <p>
+            <a href="about.html" onclick="myAbout()" class="text-reset">About Us</a>
+          </p>
+          <div id="about">
+          </div>
+        </div>
+        
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            <a href="mailtio:" class="text-reset">info@probet.com</a>
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> +2347001189000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    <a class="text-reset fw-bold" href="https://bfpredict.netlify.app/">probet.com</a>
+    &copy2022. <a href="privacy.html" class="text-reset">PRIVACY POLICY</a> | Disclaimer 
+  </div>
+</footer>
+
+<script>
+  const shareBtnRef = document.querySelector('#shareBtn');
+  shareBtnRef.onclick = async () => {
+    if(navigator.share) {
+      try {
+        const shareData = {
+          url: 'https://bfpredict.netlify.app/',
+        }
+        await navigator.share(shareData);
+        console.log('Share successfull');
+      } catch(err) {
+        console.log('Error: ', err);
+      }
+    } else {
+      console.warn('Web link Sharing not supported');
+    }
+  }
+ 
+  var x = document.getElementById("tips")
+      x.style.display = "none"
+
+    var x = document.getElementById("showLtable")
+     x.style.display = "none"
+
+    function setVisibility(elemID, disp) {
+       var x = document.getElementById(elemID);
+       x.style.display = disp;
+    }
+
+    function showTable1() {
+      setVisibility("showFtable", "");
+      setVisibility("showLtable", "none");
+    }
+    function showTable2() {
+      setVisibility("showLtable", "");
+      setVisibility("showFtable", "none");
+    }
+
+    function showTips() {
+      var x = document.getElementById("tips")
+    if (x.style.display === "block") {
+       x.style.display = "none"
+    }else {
+      x.style.display = "block"
+    }
+    }
+
+</script>
+            
+    </body>
+</html>
